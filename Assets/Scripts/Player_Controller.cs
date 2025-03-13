@@ -163,11 +163,21 @@ public class Player_Controller : MonoBehaviour
         Animator doorAnimator = door.GetComponent<Animator>();
         if (doorAnimator != null)
         {
-            doorAnimator.SetTrigger("Open");
+            bool isOpen = doorAnimator.GetBool("isOpen"); // cheack if the door is open
+            if (isOpen)
+            {
+                doorAnimator.SetTrigger("Close");
+                doorAnimator.SetBool("isOpen", false);
+            }
+            else
+            {
+                doorAnimator.SetTrigger("Open");
+                doorAnimator.SetBool("isOpen", true);
+            }
         }
         else
         {
-            door.SetActive(!door.activeSelf); // Toggle door's active state (open/close)
+            door.SetActive(!door.activeSelf); // open\close without animation
         }
     }
 
