@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 98
+  controlID: 128
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 50
+  controlID: 74
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 41
+  controlID: 75
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -369,9 +369,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 7c020000
       m_LastClickedID: 0
-      m_ExpandedIDs: 42e4feff20fbffff
+      m_ExpandedIDs: 20fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1045,9 +1045,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -228.99118, y: 1.3234367, z: 61.410973}
+    m_Target: {x: -228.76001, y: 1.1819019, z: 61.31549}
     speed: 2
-    m_Value: {x: -228.99118, y: 1.3234367, z: 61.410973}
+    m_Value: {x: -228.76001, y: 1.1819019, z: 61.31549}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1093,13 +1093,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.059467517, y: 0.7745824, z: -0.073658645, w: -0.62534916}
+    m_Target: {x: -0.13225734, y: 0.8074965, z: -0.197873, w: -0.5397277}
     speed: 2
-    m_Value: {x: -0.05935692, y: 0.775519, z: -0.07374771, w: -0.62418616}
+    m_Value: {x: -0.13255386, y: 0.8066851, z: -0.19767419, w: -0.5409377}
   m_Size:
-    m_Target: 1.1052195
+    m_Target: 1.0554847
     speed: 2
-    m_Value: 1.1052492
+    m_Value: 1.1052195
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1281,7 +1281,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1291,16 +1291,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: 96
   m_LastProjectPath: D:\Peleg\OneDrive\work\current\Unity\Git\Plagued
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: a8a60000
-    m_LastClickedID: 42664
-    m_ExpandedIDs: 00000000d2a4000000ca9a3bffffff7f
+    m_SelectedIDs: da900100
+    m_LastClickedID: 102618
+    m_ExpandedIDs: 00000000da90010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1329,7 +1329,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d2a40000
+    m_ExpandedIDs: 00000000da900100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1357,7 +1357,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000a490000026dd00008a0d01000edd0000e8a700000a00010060f0000056e60000907b00009e7f00006c8500002e860000188600005c850000388600004e7d000004860000d27f00007a8400006c840000108400005e8600002c860000ba800000c2800000d480000080860000d8800000b8800000c880000044800000da800000222001004e20010000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1383,7 +1383,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 98}
     m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
