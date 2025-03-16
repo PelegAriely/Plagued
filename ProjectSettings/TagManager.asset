@@ -6,6 +6,18 @@ TagManager:
   tags:
   - CinemachineTarget
   - Lantern
+  - RefillObject
+  - Mask
+  - Fog
+  - ReplenishMask
+  - Door
+  - LockedDoor
+  - Key
+  - LockedBox
+  - Upgrade
+  - UpgradeStation
+  - Flammable
+  - UpgradeMask
   layers:
   - Default
   - TransparentFX
